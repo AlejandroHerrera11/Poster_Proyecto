@@ -23,7 +23,7 @@ class SIMULACION extends StatelessWidget{
                   children: <TextSpan>[
                     TextSpan(
                       text:
-                      'Desarrollo de una Aplicación que apoye a los técnicos de lavadoras en labores de mantenimiento' + '\n',
+                      'Desarrollo de una Aplicación que apoye a los técnicos de lavadoras en labores de mantenimiento',
                       style: TextStyle(
                         fontSize: 30,
                         color: Colors.blueAccent,
@@ -47,7 +47,7 @@ class SIMULACION extends StatelessWidget{
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                  text: 'RESUMEN' + '\n',
+                  text: 'RESUMEN',
                   style: TextStyle(
                     fontSize:20,
                     color:Colors.black87,
@@ -194,7 +194,7 @@ class SIMULACION extends StatelessWidget{
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                  text: 'PLANTEAMIENTO DEL PROBLEMA' + '\n',
+                  text: 'PLANTEAMIENTO DEL PROBLEMA',
                   style: TextStyle(
                     fontSize:20,
                     color: Colors.black87, 
@@ -246,7 +246,7 @@ class SIMULACION extends StatelessWidget{
 
                   children: <TextSpan>[
                     TextSpan(
-                      text: 'OBJETIVO GENERAL:' + '\n',
+                      text: 'OBJETIVO GENERAL:'+ '\n',
                       style: TextStyle(
                         fontSize: 20,
                         color: Colors.black,
@@ -267,7 +267,7 @@ class SIMULACION extends StatelessWidget{
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                  text: 'OBJETIVO ESPECÍFICOS:' + '\n',
+                  text: 'OBJETIVO ESPECÍFICOS:',
                   style: TextStyle(
                     fontSize:20,
                     color: Colors.black87,
@@ -352,7 +352,7 @@ class SIMULACION extends StatelessWidget{
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                  text: 'MATERIALES  Y MÉTODOS' + '\n',
+                  text: 'MATERIALES  Y MÉTODOS',
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.black87,
@@ -452,7 +452,7 @@ class SIMULACION extends StatelessWidget{
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                  text: 'Fig. 1. Escenarios de Uso Fuente (Propia)',
+                  text: 'Fig. 1. Escenarios de Uso Fuente (Propia)' + '\n',
                   style: TextStyle(
                     fontSize:15,
                     color: Colors.black,
@@ -463,7 +463,18 @@ class SIMULACION extends StatelessWidget{
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                  text: 'RESULTADOS ESPERADOS' + '\n',
+                  text: 'RESULTADOS ESPERADOS',
+                  style: TextStyle(
+                    fontSize:20,
+                    color: Colors.black87,
+                  )
+                )
+              ),
+
+              RichText(
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  text: 'Desarrollo de un prototipo funcional de una aplicación para el soporte de la planeación en mantenimientos preventivos y correctivos de Lavadoras.' + '\n',
                   style: TextStyle(
                     fontSize:15,
                     color: Colors.black,
@@ -474,13 +485,84 @@ class SIMULACION extends StatelessWidget{
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                  text: 'RESULTADOS ESPERADOS' + '\n',
+                  text: 'Fig. 2. Escenarios de Uso Fuente (Propia)' + '\n',
                   style: TextStyle(
                     fontSize:15,
                     color: Colors.black,
                   )
                 )
               ),
+
+              RichText(
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  text: 'REFERENCIAS',
+                  style: TextStyle(
+                    fontSize:20,
+                    color: Colors.black87,
+                  )
+                )
+              ),
+
+              RichText(
+                text: TextSpan(
+                  text: ' * Atz Tuy, M. A. (2018). Propuesta de un programa de mantenimiento preventivo para el servicio de lavandería del Hospital Nacional de Chimaltenango (Doctoral dissertation, Universidad de San Carlos de Guatemala).'
+                   + '\n' + ' * CALA, R. R. (2018). Plan de mantenimiento para Hotel Barcelo.' + '\n' +
+                   ' * Calderón Marcillo, Í. F. (2017). Plan de negocio para la comercialización de un servicio integral de mantenimiento de línea blanca para el hogar de la empresa Servimanguro SA para las urbanizaciones privadas de la ciudad de Guayaquil para año 2018.'  + '\n' + 
+                   ' * Martinez Santos, L. C. (2019). Reestructuración técnico administrativa de la empresa Servicio Técnico Martínez en el municipio de Chía Cundinamarca.'  + '\n' + 
+                   ' * Yamunathagam, D., Shobana, G., & Suguna, M. (2018). Smart care-predictive maintenance system in washing machine using IOT. Journal of Advanced Research in Dynamical & Control Systems, 10, 914-917.' + '\n\n',
+                  style: TextStyle(
+                    fontSize:15,
+                    color: Colors.black,
+                  )
+                )
+              ),
+
+              RichText(
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  text: 'CONCLUSIÓN',
+                  style: TextStyle(
+                    fontSize:20,
+                    color: Colors.black87,
+                  )
+                )
+              ),
+
+              RichText(
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  style: TextStyle(
+
+                  ),
+
+                  children: <TextSpan>[
+                    TextSpan(
+                      text: 'Se pretende ',
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.black,
+                      )
+                    ),
+
+                    TextSpan(
+                      text: 'comercializar el prototipo ',
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.blueAccent,
+                      )
+                    ),
+
+                    TextSpan(
+                      text: ' funcional de la aplicación para el soporte de la planeación en mantenimientos preventivos y correctivos de Lavadoras.',
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.black,
+                      )
+                    ),
+                  ]
+                ),
+              )
             ],
           )
         ),
